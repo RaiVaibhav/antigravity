@@ -129,7 +129,7 @@ export default function AboutPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-300">
-              India's premier paragliding school with over 15 years of
+              India&apos;s premier paragliding school with over 15 years of
               excellence in flight training
             </p>
           </div>
@@ -147,12 +147,12 @@ export default function AboutPage() {
                   Founded in 2008, AntiGravity Paragliding School has been at
                   the forefront of paragliding education in India. Located in
                   the picturesque town of Bir in Himachal Pradesh, we operate
-                  from one of the world's best paragliding sites.
+                  from one of the world&apos;s best paragliding sites.
                 </p>
                 <p>
                   What started as a passion project by two experienced pilots
-                  has grown into India's most trusted paragliding school. We
-                  have successfully trained over 1000 pilots from around the
+                  has grown into India&apos;s most trusted paragliding school.
+                  We have successfully trained over 1000 pilots from around the
                   world, helping them achieve their dream of free flight.
                 </p>
                 <p>
@@ -312,9 +312,9 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-300">
                 <p>
                   Bir Billing is internationally recognized as one of the
-                  world's best paragliding sites. Located in Himachal Pradesh at
-                  an altitude of 8000+ feet, it offers perfect conditions for
-                  both learning and advanced flying.
+                  world&apos;s best paragliding sites. Located in Himachal
+                  Pradesh at an altitude of 8000+ feet, it offers perfect
+                  conditions for both learning and advanced flying.
                 </p>
                 <p>
                   The site features consistent thermals, reliable wind patterns,
@@ -324,7 +324,7 @@ export default function AboutPage() {
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-2">
                     <MapPin size={16} className="text-blue-400" />
-                    <span>World's 2nd highest paragliding site</span>
+                    <span>World&apos;s 2nd highest paragliding site</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <Award size={16} className="text-yellow-400" />
@@ -385,8 +385,8 @@ export default function AboutPage() {
             Ready to Join Our Community?
           </h2>
           <p className="text-xl mb-8 text-gray-300">
-            Whether you're a complete beginner or looking to advance your
-            skills, we're here to help you achieve your paragliding goals.
+            Whether you&apos;re a complete beginner or looking to advance your
+            skills, we&apos;re here to help you achieve your paragliding goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="btn-primary px-10 py-4 rounded-full text-xl">

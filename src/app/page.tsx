@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import MediaCarousel from "@/components/MediaCarousel";
 import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import BlogSection from "@/components/BlogSection";
+// import BlogSection from "@/components/BlogSection";
 import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <TestimonialsSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <ContactSection />
       <MediaCarousel />
     </main>

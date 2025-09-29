@@ -35,7 +35,7 @@ const FeaturesSection = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3 text-white">Community</h3>
             <p className="text-gray-400 text-center">
-              Join hundreds of pilots who've learned to fly with us.
+              Join hundreds of pilots who&apos;ve learned to fly with us.
             </p>
           </div>
         </div>

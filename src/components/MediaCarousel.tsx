@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import Image from "next/image";
 import { Play } from "lucide-react";
 
 const MediaCarousel = () => {
@@ -86,7 +87,7 @@ const MediaCarousel = () => {
             Videos & Photos
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Experience the thrill through our students' adventures and
+            Experience the thrill through our students&apos; adventures and
             achievements
           </p>
         </div>
@@ -103,7 +104,9 @@ const MediaCarousel = () => {
                 {item.type === "video" ? (
                   <>
                     <video
-                      ref={(el) => (videoRefs.current[index] = el)}
+                      ref={(el) => {
+                        videoRefs.current[index] = el;
+                      }}
                       className="w-full h-full object-cover"
                       controls={playingVideo === index}
                       muted
@@ -132,10 +135,11 @@ const MediaCarousel = () => {
                   </>
                 ) : (
                   <>
-                    <img
+                    <Image
                       src={item.src}
                       alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute top-2 right-2 bg-blue-500 text-white text-xs px-1.5 py-0.5 rounded">
                       PHOTO

@@ -125,8 +125,8 @@ export default function ContactPage() {
             </p>
             <div className="bg-gray-800/50 rounded-xl p-8 max-w-4xl mx-auto border border-gray-700">
               <p className="text-lg text-gray-200">
-                We're here to help you plan your paragliding adventure. Whether
-                you're interested in a tandem joyride or a complete training
+                We&apos;re here to help you plan your paragliding adventure. Whether
+                you&apos;re interested in a tandem joyride or a complete training
                 course, our team is ready to assist you.
               </p>
             </div>
@@ -390,7 +390,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-6">Ready to Take Flight?</h2>
           <p className="text-xl mb-8 text-gray-300">
-            Don't wait any longer - your paragliding adventure is just a message
+            Don&apos;t wait any longer - your paragliding adventure is just a message
             away!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

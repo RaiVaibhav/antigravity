@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, Mail } from "lucide-react";
 
 const Header = () => {
@@ -50,9 +51,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img
+              <Image
                 src="/antigravity/antigravity-logo.jpg"
                 alt="AntiGravity Paragliding"
+                width={48}
+                height={48}
                 className="h-12 w-auto object-contain"
               />
             </Link>

@@ -19,10 +19,10 @@ const Footer = () => {
               AntiGravity Paragliding School
             </h3>
             <p className="text-gray-300 mb-4">
-              Leading paragliding school in India, located at India's highest
-              paragliding site in Bir, Himachal Pradesh. We provide professional
-              paragliding courses and safe joyrides with experienced
-              instructors.
+              Leading paragliding school in India, located at India&apos;s
+              highest paragliding site in Bir, Himachal Pradesh. We provide
+              professional paragliding courses and safe joyrides with
+              experienced instructors.
             </p>
             <div className="flex space-x-4">
               <a

@@ -52,8 +52,8 @@ const TestimonialsSection = () => {
             What Our Students Say
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our students have to
-            say about their experience learning to fly with AntiGravity.
+            Don&apos;t just take our word for it. Here&apos;s what our students
+            have to say about their experience learning to fly with AntiGravity.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const TestimonialsSection = () => {
               </div>
 
               <p className="text-gray-300 mb-6 italic leading-relaxed">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
 
               <div className="text-center">

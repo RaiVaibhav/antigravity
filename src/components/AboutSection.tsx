@@ -1,4 +1,5 @@
 import { Award, Users, MapPin, Shield } from "lucide-react";
+import Image from "next/image";
 
 const AboutSection = () => {
   const achievements = [
@@ -65,7 +66,7 @@ const AboutSection = () => {
             About AntiGravity
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            AntiGravity is a leading paragliding school located at India's
+            AntiGravity is a leading paragliding school located at India&apos;s
             highest paragliding site in Bir, Himachal Pradesh. We are a team of
             dedicated paragliding pilots and instructors providing experienced
             training and safety equipment to enjoy paragliding in Bir Billing.
@@ -96,10 +97,11 @@ const AboutSection = () => {
         <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20 py-10">
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
-            <img
+            <Image
               src="/antigravity/our-story.avif"
               alt="Our Story Background"
-              className="w-full h-full object-cover rounded-2xl  object-top md:object-top-right"
+              fill
+              className="object-cover rounded-2xl object-top md:object-top-right"
             />
             <div className="absolute inset-0 bg-black/70 rounded-2xl"></div>
           </div>
@@ -116,9 +118,9 @@ const AboutSection = () => {
               <p>
                 Located in the breathtaking landscape of Bir Billing, Himachal
                 Pradesh, we have the privilege of operating at one of the
-                world's best paragliding sites. The unique geographical features
-                and favorable weather conditions make it an ideal location for
-                both learning and recreational flying.
+                world&apos;s best paragliding sites. The unique geographical
+                features and favorable weather conditions make it an ideal
+                location for both learning and recreational flying.
               </p>
               <p>
                 Our team of certified instructors brings together decades of
@@ -202,8 +204,8 @@ const AboutSection = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Join thousands of satisfied students who have learned to fly with
             AntiGravity. Whether you want to learn paragliding or just
-            experience a thrilling joyride, we're here to make your dreams come
-            true.
+            experience a thrilling joyride, we&apos;re here to make your dreams
+            come true.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="btn-primary px-8 py-3 rounded-full text-lg font-semibold">

@@ -1,4 +1,4 @@
-import { BookOpen, Clock, Users, Award } from "lucide-react";
+import { BookOpen, Clock, Users } from "lucide-react";
 
 const CoursesSection = () => {
   const courses = [

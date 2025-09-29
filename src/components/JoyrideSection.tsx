@@ -135,7 +135,7 @@ const JoyrideSection = () => {
                 Best Location
               </h4>
               <p className="text-gray-400">
-                Bir Billing - World's 2nd highest paragliding site
+                Bir Billing - World&apos;s 2nd highest paragliding site
               </p>
             </div>
           </div>

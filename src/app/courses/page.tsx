@@ -106,15 +106,15 @@ export default function CoursesPage() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-300">
-              Master the skies with professional training at India's premier
-              paragliding destination
+              Master the skies with professional training at India&apos;s
+              premier paragliding destination
             </p>
             <div className="bg-gray-800/50 rounded-xl p-8 max-w-4xl mx-auto border border-gray-700">
               <p className="text-lg text-gray-200">
-                Train with India's most experienced instructors at Bir Billing -
-                the world's second highest paragliding site. Join over 100
-                students from around the world who have learned to fly with our
-                15+ years of professional flying experience.
+                Train with India&apos;s most experienced instructors at Bir
+                Billing - the world&apos;s second highest paragliding site. Join
+                over 100 students from around the world who have learned to fly
+                with our 15+ years of professional flying experience.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function CoursesPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
-            {courses.map((course, index) => (
+            {courses.map((course) => (
               <div
                 key={course.id}
                 className="card-dark rounded-xl shadow-lg overflow-hidden"
@@ -267,17 +267,17 @@ export default function CoursesPage() {
             What Our Students Say
           </h2>
           <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
-            Don't just take our word for it. Allow our students themselves to
-            share their firsthand training experiences.
+            Don&apos;t just take our word for it. Allow our students themselves
+            to share their firsthand training experiences.
           </p>
           <div className="card-dark p-8 rounded-xl max-w-2xl mx-auto">
             <p className="text-lg italic text-gray-200 mb-6">
-              "Head to AntiGravity, whether it is for a tandem flight or a
-              proper course, these guys will not disappoint, they'll make it fun
-              and make sure you learn it in a way that you become an independent
-              pilot. If going for a tandem, do ask that you want 'acro' in your
-              flight, no extra charges, but 10x the experience in the same
-              duration. Happy flying!"
+              &quot;Head to AntiGravity, whether it is for a tandem flight or a
+              proper course, these guys will not disappoint, they&apos;ll make
+              it fun and make sure you learn it in a way that you become an
+              independent pilot. If going for a tandem, do ask that you want
+              &apos;acro&apos; in your flight, no extra charges, but 10x the
+              experience in the same duration. Happy flying!&quot;
             </p>
             <p className="font-semibold text-white">- Satyam Anand</p>
             <Link
@@ -294,9 +294,9 @@ export default function CoursesPage() {
       <section className="py-20 bg-gradient-to-br from-gray-900 to-black">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <blockquote className="text-2xl font-light italic mb-4 text-gray-100">
-            "Once you have tasted flight you will walk the earth with your eyes
-            turned skywards, for there you have been and there you will long to
-            return."
+            &quot;Once you have tasted flight you will walk the earth with your
+            eyes turned skywards, for there you have been and there you will
+            long to return.&quot;
           </blockquote>
           <cite className="text-gray-400 text-lg font-medium">
             — Leonardo da Vinci

@@ -33,6 +33,26 @@ const ContactSection = () => {
             Ready to start your paragliding adventure? Contact us for bookings,
             course information, or any questions you might have.
           </p>
+          {/* <div className="text-center mt-16">
+            <div className="card-dark p-8 rounded-xl max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Ready to Take Flight?
+              </h3>
+              <p className="text-gray-300 mb-6">
+                Whether you're looking for an adrenaline-pumping joyride or want
+                to learn to fly solo, we're here to make your paragliding dreams
+                come true.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button className="btn-primary px-8 py-3 rounded-full font-semibold">
+                  Book a Joyride
+                </button>
+                <button className="bg-transparent border-2 border-gray-400 hover:bg-gray-400 hover:text-black text-gray-300 px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+                  Enroll in Course
+                </button>
+              </div>
+            </div>
+          </div> */}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -80,7 +100,9 @@ const ContactSection = () => {
                 </li>
                 <li className="flex items-start space-x-2">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Located at world's 2nd highest paragliding site</span>
+                  <span>
+                    Located at world&apos;s 2nd highest paragliding site
+                  </span>
                 </li>
               </ul>
             </div>
@@ -163,27 +185,6 @@ const ContactSection = () => {
                 Send Message
               </button>
             </form>
-          </div>
-        </div>
-
-        <div className="text-center mt-16">
-          <div className="card-dark p-8 rounded-xl max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              Ready to Take Flight?
-            </h3>
-            <p className="text-gray-300 mb-6">
-              Whether you're looking for an adrenaline-pumping joyride or want
-              to learn to fly solo, we're here to make your paragliding dreams
-              come true.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary px-8 py-3 rounded-full font-semibold">
-                Book a Joyride
-              </button>
-              <button className="bg-transparent border-2 border-gray-400 hover:bg-gray-400 hover:text-black text-gray-300 px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
-                Enroll in Course
-              </button>
-            </div>
           </div>
         </div>
       </div>

@@ -249,7 +249,7 @@ export default function TestimonialsPage() {
                   {renderStars(testimonial.rating)}
                 </div>
                 <p className="text-gray-300 mb-4 italic">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
                 <p className="text-white font-semibold text-center">
                   - {testimonial.name}

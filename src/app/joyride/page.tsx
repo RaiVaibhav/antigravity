@@ -264,8 +264,8 @@ export default function JoyridePage() {
               What to Expect
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Here's what happens during your paragliding joyride experience
-              with us.
+              Here&apos;s what happens during your paragliding joyride
+              experience with us.
             </p>
           </div>
 
@@ -293,11 +293,11 @@ export default function JoyridePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-4xl font-bold text-white mb-6">
-                Bir Billing - World's Best Flying Site
+                Bir Billing - World&apos;s Best Flying Site
               </h2>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  Bir Billing is recognized as one of the world's best
+                  Bir Billing is recognized as one of the world&apos;s best
                   paragliding sites, located in the beautiful state of Himachal
                   Pradesh, India.
                 </p>

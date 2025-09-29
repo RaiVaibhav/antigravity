@@ -85,7 +85,7 @@ const HeroSection = () => {
               Community
             </h3>
             <p className="text-gray-400 text-center text-sm md:text-base">
-              Join hundreds of pilots who've learned to fly with us.
+              Join hundreds of pilots who&apos;ve learned to fly with us.
             </p>
           </div>
         </div>
