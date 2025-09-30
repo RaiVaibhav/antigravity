@@ -98,6 +98,7 @@ The site is ready for deployment on Vercel:
 
 ```bash
 npm run build
+
 ```
 
 ## 📝 License
