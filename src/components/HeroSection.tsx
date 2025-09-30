@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, Wind, Award, Users } from "lucide-react";
+import { ChevronDown, Wind, Award, Users, Link } from "lucide-react";
+import Image from "next/image";
 
 const HeroSection = () => {
   const [showEnquiry, setShowEnquiry] = useState(false);
@@ -24,9 +25,24 @@ const HeroSection = () => {
         </video>
         <div className="absolute inset-0 bg-black/50 z-10"></div>
       </div>
-
+      <div className="flex flex-col md:hidden items-center justify-center md:justify-start relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white w-full -mt-30">
+        <Image
+          src="/antigravity/logo-without-background.png"
+          alt="AntiGravity Paragliding"
+          width={60}
+          height={60}
+          className="h-32 w-auto object-contain"
+        />
+        <h1 className="text-xl md:text-5xl font-bold mb-6 leading-tight -mt-6">
+          <span className="text-gray-300">
+            Professional Paragliding at
+            <br />
+            Bir Billing
+          </span>
+        </h1>
+      </div>
       {/* Content */}
-      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <div className="hidden md:flex flex-col relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className="mb-8">
           {/* <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="text-white">AntiGravity</span>

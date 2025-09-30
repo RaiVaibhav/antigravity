@@ -52,11 +52,11 @@ const Header = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/antigravity/antigravity-logo.jpg"
+                src="/antigravity/logo-without-background.png"
                 alt="AntiGravity Paragliding"
-                width={48}
-                height={48}
-                className="h-12 w-auto object-contain"
+                width={60}
+                height={60}
+                className="h-12 md:h-16 w-auto object-contain"
               />
             </Link>
           </div>
