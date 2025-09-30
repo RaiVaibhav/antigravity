@@ -1,22 +1,33 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { ChevronDown, Wind, Award, Users, Link } from "lucide-react";
 import Image from "next/image";
 
 const HeroSection = () => {
   const [showEnquiry, setShowEnquiry] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Set the time limit in seconds (change this value as needed)
+  const VIDEO_TIME_LIMIT = 35; // Play for 10 seconds only
+
+  const handleTimeUpdate = () => {
+    if (videoRef.current && videoRef.current.currentTime >= VIDEO_TIME_LIMIT) {
+      videoRef.current.currentTime = 0; // Reset to beginning
+    }
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
+          ref={videoRef}
           className="w-full h-full object-cover"
           autoPlay
           muted
-          loop
           playsInline
+          onTimeUpdate={handleTimeUpdate}
         >
           <source
             src="/antigravity/post-monsoon-batches.mp4"
@@ -25,7 +36,7 @@ const HeroSection = () => {
         </video>
         <div className="absolute inset-0 bg-black/50 z-10"></div>
       </div>
-      <div className="flex flex-col md:hidden items-center justify-center md:justify-start relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white w-full -mt-30">
+      <div className="flex flex-col md:hidden items-center justify-center md:justify-start relative z-20 max-w-7xl mx-auto text-center text-white w-full -mt-30">
         <Image
           src="/antigravity/logo-without-background.png"
           alt="AntiGravity Paragliding"
@@ -40,6 +51,9 @@ const HeroSection = () => {
             Bir Billing
           </span>
         </h1>
+        <div className="bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce ml-5 mt-10">
+          <ChevronDown size={32} className="text-gray-400" />
+        </div>
       </div>
       {/* Content */}
       <div className="hidden md:flex flex-col relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
